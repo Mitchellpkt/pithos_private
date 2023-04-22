@@ -13,7 +13,8 @@
 # You should have received a copy of the GNU General Public License along
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
 # END LICENSE
-
+import gettext
+_ = gettext.gettext
 from gi.repository import Gtk
 from pithos.plugin import PithosPlugin
 

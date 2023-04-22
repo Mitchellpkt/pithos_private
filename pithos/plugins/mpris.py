@@ -16,7 +16,8 @@
 #
 # See <https://specifications.freedesktop.org/mpris-spec/latest/interfaces.html>
 # for documentation.
-
+import gettext
+_ = gettext.gettext
 import codecs
 import logging
 import math

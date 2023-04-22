@@ -12,6 +12,8 @@
 # You should have received a copy of the GNU General Public License along
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import gettext
+_ = gettext.gettext
 
 import contextlib
 import html
